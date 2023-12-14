@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+    .mik{
+    height: 100%;
+    width: 50%;
+    background-color:lightblue;
+    background-size: cover;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 50px;
+    box-shadow: 20px 20px 20px gray;
+}
+.input{
+    border-radius: 20px;
+    padding-left: 40px;
+    background-color: transparent;
+}
+button{
+    height: 20px;
+    width: 150px;
+background-color: transparent;
+}
+input::placeholder{
+    font-size: small;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+.img{
+width: 100px;
+}
+.nav{
+    height: 30px;
+    width: 100%;
+    background-color: aqua;
+}
+.navcon{
+    margin-left: 100px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ft{
+    height: 100px;
+    width: 100%;
+    background-color: darkslategrey;
+}
+</style>
+    <body>
+        <div class="div1"><center><h1>MIK AUTOS</h1></center>
+            <img class="img" src="../img/download-removebg-preview.png" alt=""></div>
+        <div class="nav">
+            <!-- <img class="img" src="../img/download-removebg-preview.png" alt=""> -->
+            <center> <a class="navcon" href="./index.html">Home</a>
+                <a class="navcon" href="./aboutus.html">About us</a>
+                <a class="navcon" href="./contactus.html">Contact us</a></center>
+        </div>
+        <div class="mik">
+            <center><h1> BIKE REGISTRATION </h1></center>
+            <form>
+                <label for="">Name</label>&nbsp; &nbsp;<input class="input"
+                    type="text" placeholder="Enter Your Name" required> 
+                <br><br>
+                <label for="">Email</label>&nbsp;&nbsp;<input class="input"
+                    type="email" placeholder="Enter Your Email" required>
+                <br><br>
+                <label for="">Password</label>&nbsp;&nbsp;<input class="input"
+                    type="password" placeholder="Enter Your Password"required>
+                <br><br>
+                <label for="">Adress</label>&nbsp;&nbsp;<input class="input"
+                    type="text" placeholder="Enter Your Adress"required>
+                <br><br>
+                <label for="">Mobile Number</label>&nbsp;&nbsp;<input
+                    class="input" type="mobile number" placeholder="Enter Your Mobile Number">
+                <br><br>
+                <div id="radio">
+                    <input type="radio" name="gender">Male
+                    <br>
+                    <input type="radio" name="gender">Female
+                </div>
+                <br>
+                <label for="">City</label>&nbsp;&nbsp;<input type="city"
+                    placeholder="Enter Your City">
+                <br><br>
+                <center><button>Submit</button></center>
+                <br><br>
+            </form>
+        </div>
+        <br><br><br>
+        <footer>
+            <div class="ft">
+              <center> CONTACT HERE:0312 6768790 </center> 
+            </div>
+        </footer>
+    </body>
+</html>
