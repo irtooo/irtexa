@@ -1,0 +1,26 @@
+.div1{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+.img{
+width: 100px;
+}
+.nav{
+    height: 30px;
+    width: 100%;
+    background-color: aqua;
+}
+.navcon{
+    margin-left: 100px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img2{
+    width: 100%;
+}
+.img3{
+    width: 100%;
+}
